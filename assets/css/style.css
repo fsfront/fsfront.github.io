@@ -789,10 +789,6 @@ a.bPurchase {
 	margin-bottom: 0px;
 }
 
-.contactForm{
-	margin-left: 35%;
-	margin-right: 35%;
-}
 input, textarea, select {
     color: #222;
 	background: transparent;
@@ -846,14 +842,12 @@ input.submit:hover {
 	color: #ffffff;
 }
 
-#contactform input[type="submit"][disabled] { background:#777; cursor: default; }
 #contactform div {margin: 20px 0;}
-.contactForm fieldset { padding:0;border:0; }
-.contactForm label {
-	font-size: 12px;
+.contactForm a{
+	text-align: center;
+	font-size: 10px;
     font-weight: 400;
     letter-spacing: 2px;
-    text-transform: uppercase;
     font-family: "Open Sans", sans-serif;
 }
 /* ====MESSAGE FOR SUCCES==== */
