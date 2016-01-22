@@ -608,7 +608,16 @@ transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
 	border: 1px solid #000000!important;
   	padding: 5px 20px;
 }
-
+.ads-container {
+  background-color: rgba(0,0,0,0.9);
+}
+.ads-container + .ads-container{
+	padding-top: 35px;
+}
+.ads-container iframe {
+	display: block;
+	margin: 0 auto;
+}
 .modal-box {
 	max-width: 550px;
 	background: #fff;
