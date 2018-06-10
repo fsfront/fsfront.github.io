@@ -64,3 +64,8 @@ jQuery(window).load(function() {
       });
 
 
+//------- PORTOFOLIO GET CURRENT YEAR ---//
+$(document).ready(function(){
+  var cYear = (new Date()).getFullYear();
+  $('#actual-year').text(cYear);
+});
